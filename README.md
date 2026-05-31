@@ -32,6 +32,38 @@ You should have received a setup email with the account checklist (GitHub, Claud
    ```
 6. Start chatting. Try: *"Change the headline to say 'Hi, I'm [your name]'"*
 
+## Deploying to Vercel
+
+This repo includes a `vercel.json` at the root that pre-configures the deploy:
+
+- **Framework** — auto-selected as Next.js (no dropdown to pick)
+- **Default template** — `templates/portfolio`
+
+### To deploy
+
+1. Go to [vercel.com/new](https://vercel.com/new) and import your fork
+2. Click **Deploy** — no settings to change
+3. ~60 seconds later, your portfolio site is live
+
+### Deploying the landing template instead
+
+Open `vercel.json` in your project (or ask Claude *"open vercel.json"*) and replace both occurrences of `templates/portfolio` with `templates/landing`:
+
+```json
+{
+  "framework": "nextjs",
+  "buildCommand": "cd templates/landing && npm install && npm run build",
+  "outputDirectory": "templates/landing/.next",
+  "installCommand": "echo 'Install runs inside the template directory during build.'"
+}
+```
+
+Commit and push. Vercel auto-redeploys with the new template.
+
+Easier route: just ask Claude:
+
+> *"Update vercel.json so it deploys the landing template instead of portfolio."*
+
 ## Reference docs
 
 Whether during or after the workshop, these are the references to keep on hand:

@@ -30,6 +30,20 @@ The user is **non-technical**. They have not written code before today. Treat th
 - Add a section (e.g., "experience", "services", "testimonials") — **use the existing component patterns**
 - Deploy to Vercel
 
+## Deploying to Vercel
+
+A `vercel.json` at the repo root pre-configures the deploy. Default target is `templates/portfolio`.
+
+**If the user wants to deploy the landing template** instead of the portfolio:
+
+- Open `vercel.json`
+- Replace both occurrences of `templates/portfolio` with `templates/landing`
+- Save the file
+- Commit and push (or ask Claude to: *"commit this change and push"*)
+- Vercel auto-redeploys
+
+That's the only edit needed. **Don't touch the `framework`, `installCommand`, or other fields** — they work for both templates.
+
 ## Things to flag
 
 - Features that need a database, auth, or backend — out of scope for this workshop. Suggest a simpler alternative.

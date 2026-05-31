@@ -1,0 +1,7 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "nextjs",
+  "buildCommand": "cd templates/portfolio && npm install && npm run build",
+  "outputDirectory": "templates/portfolio/.next",
+  "installCommand": "echo 'Install runs inside the template directory during build.'"
+}
