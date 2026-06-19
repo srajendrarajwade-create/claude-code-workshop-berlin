@@ -5,11 +5,11 @@
 // ────────────────────────────────────────────────────────────────
 
 export const hero = {
-  name: "Anna Schneider",
-  role: "Product Designer",
-  location: "Berlin, Germany",
+  name: "Sakshi Rajwade",
+  role: "Procurement & Supply Chain Professional",
+  location: "Munich, Germany",
   headline:
-    "I help early-stage teams turn fuzzy ideas into shipping products. Currently designing checkout flows at a fintech startup.",
+    "Procurement specialist with hands-on sourcing, supplier negotiation, and data-driven decision-making experience across Germany and India. Master's thesis on AI-based demand sensing — ready to bring that analytical edge to the next role.",
   ctaPrimary: { label: "See my work", href: "#projects" },
   ctaSecondary: { label: "Get in touch", href: "#contact" },
 };
@@ -17,9 +17,9 @@ export const hero = {
 export const about = {
   heading: "About",
   paragraphs: [
-    "I'm a product designer with seven years of experience across fintech, e-commerce, and developer tools. I care about the unglamorous parts of design — error states, edge cases, and the slow trust-building between a product and its users.",
-    "Before design, I studied philosophy in Munich. It turns out a lot of design is just disciplined thinking about what people actually need versus what they say they want.",
-    "Outside work I climb (poorly), read (constantly), and run a small Sunday breakfast club in Neukölln.",
+    "I'm a Procurement and Supply Chain professional who thrives at the intersection of structured analysis and practical execution. I've managed sourcing for 50+ SKUs, negotiated directly with international suppliers, and built dashboards that turned raw procurement data into weekly decisions for department heads.",
+    "My Master's thesis at bbw Hochschule explored AI-based demand sensing in perishable food supply chains — a topic that sits right at the frontier of where procurement is heading. I don't just read about these tools; I use them.",
+    "Originally from Pune, India, now based in Munich. Fluent in English, working in German (B1). I enjoy cross-cultural supplier relationships and thrive in fast-paced, collaborative environments.",
   ],
 };
 
@@ -27,52 +27,45 @@ export const experience = {
   heading: "Experience",
   roles: [
     {
-      title: "Senior Product Designer",
-      company: "Tide",
-      period: "2023 — Present",
+      title: "Supply Chain & Procurement Intern",
+      company: "JUCR GmbH",
+      period: "Jul 2024 — Dec 2024 · Berlin, Germany",
       summary:
-        "Leading checkout and onboarding redesign for the business banking app. Cut signup drop-off by 34% in the first quarter after launch.",
+        "Managed end-to-end sourcing for 50+ SKUs across 40+ international and regional suppliers using AirTable ERP. Independently negotiated with suppliers on price, delivery terms, and lead times. Built Excel dashboards tracking 4 KPIs (on-time delivery, cost variance, stock turnover, order fulfillment rate) — used weekly by department heads. Maintained procurement master data with <1% error rate.",
     },
     {
-      title: "Product Designer",
-      company: "GitLab",
-      period: "2020 — 2023",
+      title: "Junior Procurement Associate",
+      company: "Raviraj Industries",
+      period: "Feb 2020 — Mar 2021 · Navi Mumbai, India",
       summary:
-        "Owned the merge request review experience. Shipped inline code review, suggested changes UX, and the new diff renderer.",
-    },
-    {
-      title: "Designer",
-      company: "Freelance",
-      period: "2017 — 2020",
-      summary:
-        "Worked with 14 early-stage startups across Berlin and Tel Aviv on brand, web, and product design.",
+        "Conducted structured market analysis across 5+ supplier segments for gastronomy equipment components. Identified cost-competitive vendors and drove strategic supplier shifts, generating annual savings of 5%. Developed Excel-based cost control and audit tools. Collaborated cross-functionally with logistics and finance teams across 15+ technical item categories.",
     },
   ],
 };
 
 export const projects = {
-  heading: "Selected work",
+  heading: "Key Projects",
   items: [
     {
-      title: "Tide Checkout Redesign",
+      title: "Procurement KPI Dashboard — JUCR GmbH",
       year: "2024",
       summary:
-        "Reframed the onboarding flow around clarity over speed. Three rounds of usability testing, six prototypes, one launch — 34% improvement in completion.",
-      link: { label: "Case study", href: "#" },
+        "Designed and built an Excel-based dashboard tracking on-time delivery, cost variance, stock turnover, and order fulfillment rate across 40+ suppliers. Used weekly by department heads for sourcing decisions, replacing manual reporting that was taking hours each week.",
+      link: { label: "See experience", href: "#experience" },
     },
     {
-      title: "GitLab Inline Code Review",
-      year: "2022",
+      title: "AI-Based Demand Sensing in Food Supply Chains",
+      year: "2025–2026",
       summary:
-        "Designed the inline review pattern now used by 30+ million developers. Started as a hack-week prototype, became a flagship feature.",
-      link: { label: "Read the writeup", href: "#" },
+        "Master's thesis exploring how AI and machine learning models can improve demand forecasting accuracy for perishable goods — reducing waste and improving supply chain resilience. Directly aligned with AI-driven procurement transformation happening across the industry.",
+      link: { label: "See education", href: "#contact" },
     },
     {
-      title: "Berlin Coffee Map",
-      year: "2023",
+      title: "Supplier Optimisation — Raviraj Industries",
+      year: "2020–2021",
       summary:
-        "A side project mapping independent coffee roasters in Berlin. Built with React + Mapbox. Used by ~2k people a week.",
-      link: { label: "View live", href: "#" },
+        "Led a structured supplier evaluation and market analysis across 5+ segments. Executed strategic vendor shifts that generated 5% annual cost savings. Built vendor databases and contract documentation supporting the full supplier lifecycle.",
+      link: { label: "See experience", href: "#experience" },
     },
   ],
 };
@@ -81,34 +74,50 @@ export const skills = {
   heading: "What I work with",
   groups: [
     {
-      label: "Design",
-      items: ["Product strategy", "Interaction design", "Prototyping", "Usability testing", "Design systems"],
+      label: "Procurement",
+      items: [
+        "Strategic & Operational Sourcing",
+        "Supplier Negotiation",
+        "Contract Handling",
+        "Vendor Evaluation",
+        "Category Management",
+        "KPI Reporting",
+      ],
     },
     {
-      label: "Tools",
-      items: ["Figma", "Linear", "Notion", "Framer", "FigJam"],
+      label: "Tools & Tech",
+      items: [
+        "Microsoft Excel (Pivot Tables, VLOOKUP, Forecasting)",
+        "PowerPoint",
+        "AirTable ERP",
+        "Microsoft Teams",
+        "AI Tools (Claude by Anthropic)",
+      ],
     },
     {
-      label: "Code",
-      items: ["HTML / CSS", "React (basics)", "Git"],
+      label: "Soft Skills",
+      items: [
+        "Analytical Problem Solving",
+        "Cross-Functional Collaboration",
+        "Adaptability",
+        "Proactive Mindset",
+      ],
     },
   ],
 };
 
 export const testimonials = {
-  heading: "What people say",
+  heading: "Certifications",
   quotes: [
     {
-      text:
-        "Anna is rare. She holds the long-term product vision and the pixel-level craft in the same head, and shifts between them without losing either.",
-      author: "Lukas Weber",
-      role: "Head of Product, Tide",
+      text: "Supply Chain Foundations · CSCMP Supply Chain Foundations: Procurement Professional Certificate",
+      author: "Eddie Davila / CSCMP",
+      role: "LinkedIn Learning & CSCMP",
     },
     {
-      text:
-        "Working with Anna recalibrated how our whole team thinks about review. She has an instinct for what's actually friction versus what just feels like friction.",
-      author: "Sara Patel",
-      role: "Engineering Manager, GitLab",
+      text: "Project Management Foundations · Excel Quick Tips",
+      author: "Bonnie Biafore / Garrick Chow",
+      role: "LinkedIn Learning",
     },
   ],
 };
@@ -116,16 +125,16 @@ export const testimonials = {
 export const contact = {
   heading: "Get in touch",
   body:
-    "Open to product design roles, collaborations, and the occasional coffee. Berlin or remote.",
-  email: "anna@example.com",
+    "Open to procurement and supply chain roles in Munich and across Germany. Happy to connect about opportunities, collaborations, or a coffee.",
+  email: "s.rajendra.rajwade@gmail.com",
   socials: [
     { label: "LinkedIn", href: "https://linkedin.com/in/yourname" },
-    { label: "Twitter / X", href: "https://twitter.com/yourname" },
-    { label: "Read.cv", href: "https://read.cv/yourname" },
+    { label: "Phone", href: "tel:+4917645276600" },
   ],
 };
 
 export const meta = {
-  title: "Anna Schneider — Product Designer",
-  description: "Berlin-based product designer. Currently at Tide.",
+  title: "Sakshi Rajwade — Procurement & Supply Chain",
+  description:
+    "Procurement and Supply Chain professional based in Munich, Germany. Experienced in strategic sourcing, supplier negotiation, and data-driven procurement.",
 };
