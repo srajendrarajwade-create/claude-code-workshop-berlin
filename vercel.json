@@ -1,6 +1,0 @@
-{
-  "buildCommand": "npm --prefix templates/portfolio install && npm --prefix templates/portfolio run build",
-  "outputDirectory": "templates/portfolio/out",
-  "installCommand": "echo skip",
-  "framework": null
-}
