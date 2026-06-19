@@ -1,5 +1,6 @@
 {
-  "builds": [
-    { "src": "templates/portfolio/package.json", "use": "@vercel/next" }
-  ]
+  "buildCommand": "npm --prefix templates/portfolio install && npm --prefix templates/portfolio run build",
+  "installCommand": "echo 'install handled in buildCommand'",
+  "framework": "nextjs",
+  "outputDirectory": "templates/portfolio/.next"
 }
