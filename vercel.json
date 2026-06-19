@@ -1,6 +1,5 @@
 {
   "buildCommand": "npm --prefix templates/portfolio install && npm --prefix templates/portfolio run build",
-  "installCommand": "echo 'install handled in buildCommand'",
-  "framework": "nextjs",
-  "outputDirectory": "templates/portfolio/.next"
+  "outputDirectory": "templates/portfolio/out",
+  "installCommand": "echo skip"
 }
